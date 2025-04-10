@@ -11,8 +11,6 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 //Escribe tu código aquí
 console.log('Bienvenida/o al bootcamp Femcoders de Factoría F5');
 
-
-
 //VARIABLES Y TIPOS DE DATOS
 //Ejercicio 2: Crea una variable por los siguientes tipos de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
 
@@ -26,67 +24,70 @@ let boolean=true;
 //Null
 let car=null;
 //Undefined
-let nacionality="Spanish";
+let nacionality="";
 nacionality=undefined;
 //Object
-const object={Name:"Sofia", age:"24"};
+const myself={name:"Sofia", age:"24"};
 //Array
-const array=["Football", "Tennis", "Basketball"];
+const sports=["Football", "Tennis", "Basketball"];
 //Print to console
 console.log(colour,favoriteNumber,boolean,car,nacionality);
-console.log(object,array);
-
-
+console.log("Object",myself);
+console.log("Array",sports);
 
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
 
 //Escribe tu código aquí
-
-
-
+const postres=["helado","tarta","pastel"];
+console.log("Postres",postres);
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
 //Escribe tu código aquí
-
-
-
+const coder={name:"Sofía",age:"24"};
+console.log("Coder",coder);
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
 
 //Escribe tu código aquí
-
-
-
+console.log(typeof colour);
+console.log(typeof favoriteNumber);
+console.log(typeof boolean);
+console.log(typeof car);
+console.log(typeof nacionality);
+console.log(typeof myself);
+console.log(typeof sports);
+console.log(typeof postres);
+console.log(typeof coder);
 
 //OPERADORES ARITMÉTICOS
 //Ejercicio 6: Crea una varible que sume 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-
-
-
+let x=5;
+let y=9;
+console.log(x+y);
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-
-
-
+let a=10;
+let b=3;
+console.log(a-b);
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-
-
-
+let c=3;
+let d=5;
+console.log(c*d);
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
-
-
-
+let m=10;
+let n=2;
+console.log(m/n);
 
 //OPERADORES DE COMPARACIÓN
 // Ejercicio 10: Crea dos variables, la primera con valor 1 y la segunda con valor 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
