@@ -27,7 +27,7 @@ let car=null;
 let nacionality="";
 nacionality=undefined;
 //Object
-const myself={name:"Sofia", age:"24"};
+const myself={name1:"Sofia", age:"24"};
 //Array
 const sports=["Football", "Tennis", "Basketball"];
 //Print to console
@@ -66,43 +66,41 @@ console.log(typeof coder);
 //Escribe tu código aquí
 let x=5;
 let y=9;
-console.log(x+y);
+console.log("Ejercicio 6",x+y);
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 let a=10;
 let b=3;
-console.log(a-b);
+console.log("Ejercicio 7",a-b);
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 let c=3;
 let d=5;
-console.log(c*d);
+console.log("Ejercicio 8",c*d);
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 let m=10;
 let n=2;
-console.log(m/n);
+console.log("Ejercicio 9",m/n);
 
 //OPERADORES DE COMPARACIÓN
 // Ejercicio 10: Crea dos variables, la primera con valor 1 y la segunda con valor 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
 
 //Escribe tu código aquí
-
-
-
+let first=1;
+let second=2;
+console.log("Ejercicio 10",first==second);
 
 // Ejercicio 10: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
 //Escribe tu código aquí
-
-
-
+console.log("Ejercicio 10",first!=second);
 
 //Ejercicio 11: completa el ejercicio
 /*
@@ -112,6 +110,9 @@ let num2 = 20
 let comparacion = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
 console.log(comparacion)
 */
+let num1=15;
+let num2=20
+console.log("comparación",num1!==num2);
 
 //Ejercicio 12: completa el ejercicio
 /*
@@ -121,22 +122,26 @@ let num3AsString = "1"
 let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
 console.log(result) 
 */
+let num3=1;
+let num3AsString="1";
+console.log("result",num3<num3AsString);
 
 //Ejercicio 13: completa el ejercicio
 /*
 let result2 = //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
 console.log(result2)
 */
-
+let result2=num3<=num3AsString;
+console.log("result2",result2);
 
 //OPERADORES DE CADENAS
 //Ejercicio 14: Crea una variable con tu nombre y otra variable con tu apellido y crea otra nueva variable con tu nombre completo concatenando las dos variables anteriores e imprime en consola. Debe haber un espacio entre tu nombre y apellido.
 
 //Escribe tu código aquí
-
-
-
-
+const firstName="Sofía";
+const lastName="Santos";
+const fullName= firstName+ " " +lastName;
+console.log("Ejercicio 14",fullName);
 
 //OPERADORES DE LÓGICA
 //Ejercicio 15: Descomenta todo el bloque desde la variable 'a' hasta el 'console.log(res6)' y completa el ejercicio. (Saldrá un error y no podrás visualizar el resultado hasta que termines este ejercicio)
