@@ -9,7 +9,7 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 //Ejercicio 1: Imprime en la consola "Bienvenida/o al bootcamp Femcoders de Factoría F5" y mira en tu navegador si sale el resultado.
 
 //Escribe tu código aquí
-
+console.log('Bienvenida/o al bootcamp Femcoders de Factoría F5');
 
 
 
@@ -17,7 +17,24 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 //Ejercicio 2: Crea una variable por los siguientes tipos de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
 
 //Escribe tu código aquí
-
+//String
+let colour="blue";
+//Number
+let favoriteNumber=5;
+//Boolean
+let boolean=true;
+//Null
+let car=null;
+//Undefined
+let nacionality="Spanish";
+nacionality=undefined;
+//Object
+const object={Name:"Sofia", age:"24"};
+//Array
+const array=["Football", "Tennis", "Basketball"];
+//Print to console
+console.log(colour,favoriteNumber,boolean,car,nacionality);
+console.log(object,array);
 
 
 
